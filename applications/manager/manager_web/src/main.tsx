@@ -1,4 +1,5 @@
 import './i18n';
+import './stores/fontStore'; // apply saved font preferences before first paint
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';

@@ -94,7 +94,9 @@
     "roles": "Roles",
     "approvals": "Approval Center",
     "todo": "To-do",
-    "todoWithCount": "To-do, {{count}} pending"
+    "todoWithCount": "To-do, {{count}} pending",
+    "system": "System",
+    "settings": "Settings"
   },
   "guide": {
     "gotoPageLink": "Go to {{page}}",
@@ -1361,6 +1363,35 @@
       "allowPublicHttp": "Allow public HTTP",
       "allowPublicHttpHint": "Requires \"Allow HTTP addresses\" to be enabled as well.",
       "warning": "HTTP transmits credentials in plaintext. Use only on trusted networks. Loopback addresses are always blocked."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage interface preferences",
+    "general": {
+      "fontSectionTitle": "Font & Display",
+      "fontSectionDesc": "Adjust the font size and font family of the management interface. These settings only affect the current browser display and do not change the view for other users.",
+      "fontSizeLabel": "Font Size",
+      "fontSizeHint": "Choose a size that is comfortable for your reading.",
+      "fontSize": {
+        "compact": "Compact",
+        "default": "Default",
+        "comfortable": "Comfortable",
+        "large": "Large"
+      },
+      "fontFamilyLabel": "Font Family",
+      "fontFamily": {
+        "harmony": "HarmonyOS Sans SC",
+        "system": "System Default",
+        "inter": "Inter",
+        "noto": "Noto Sans SC",
+        "mono": "JetBrains Mono"
+      },
+      "fontPreviewText": "The quick brown fox jumps over the lazy dog. Management interface font preview 1234567890",
+      "previewLabel": "Live Preview",
+      "previewHeading": "Preview Heading",
+      "previewBody": "This is a sample body text to demonstrate the appearance under the current font settings.",
+      "previewCaption": "Caption text"
     }
   }
 }

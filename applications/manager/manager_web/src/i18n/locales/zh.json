@@ -94,7 +94,9 @@
     "roles": "角色",
     "approvals": "审批中心",
     "todo": "待办",
-    "todoWithCount": "待办，{{count}} 条"
+    "todoWithCount": "待办，{{count}} 条",
+    "system": "系统",
+    "settings": "设置"
   },
   "guide": {
     "gotoPageLink": "前往 {{page}} 页面",
@@ -1362,6 +1364,35 @@
       "allowPublicHttp": "允许公网 HTTP",
       "allowPublicHttpHint": "需同时开启\"允许 HTTP 地址\"。",
       "warning": "HTTP 会明文传输凭据，仅用于可信网络。回环地址始终禁止。"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "管理界面偏好设置",
+    "general": {
+      "fontSectionTitle": "字体与显示",
+      "fontSectionDesc": "调整管理界面的字体大小和字体族。这些设置仅影响当前浏览器的显示，不会改变其他用户的视图。",
+      "fontSizeLabel": "字体大小",
+      "fontSizeHint": "选择适合您阅读舒适度的字号。",
+      "fontSize": {
+        "compact": "紧凑",
+        "default": "默认",
+        "comfortable": "舒适",
+        "large": "大号"
+      },
+      "fontFamilyLabel": "字体族",
+      "fontFamily": {
+        "harmony": "HarmonyOS Sans SC",
+        "system": "系统默认",
+        "inter": "Inter",
+        "noto": "Noto Sans SC",
+        "mono": "JetBrains Mono"
+      },
+      "fontPreviewText": "The quick brown fox jumps over the lazy dog. 管理界面字体预览 1234567890",
+      "previewLabel": "实时预览",
+      "previewHeading": "预览标题 / Preview Heading",
+      "previewBody": "这是一段正文示例文字，用于展示当前字体设置下的显示效果。This is a sample body text to demonstrate the appearance under the current font settings.",
+      "previewCaption": "说明文字 / Caption text"
     }
   }
 }

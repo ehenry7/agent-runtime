@@ -125,10 +125,11 @@
   --shell-nav-width: 220px;
   --shell-topbar-height: 56px;
 
-  --font-size-base: 14px;
-  --font-size-sm: 13px;
-  --font-size-xs: 12px;
-  --font-size-2xs: 11px;
+  --font-scale: 1;
+  --font-size-base: calc(14px * var(--font-scale));
+  --font-size-sm: calc(13px * var(--font-scale));
+  --font-size-xs: calc(12px * var(--font-scale));
+  --font-size-2xs: calc(11px * var(--font-scale));
 
   color-scheme: dark;
 }
@@ -1842,10 +1843,10 @@ button, input, textarea, select { font: inherit; color: inherit; }
 
 @media (min-width: 1440px) {
   :root {
-    --font-size-base: 15px;
-    --font-size-sm: 14px;
-    --font-size-xs: 13px;
-    --font-size-2xs: 12px;
+    --font-size-base: calc(15px * var(--font-scale));
+    --font-size-sm: calc(14px * var(--font-scale));
+    --font-size-xs: calc(13px * var(--font-scale));
+    --font-size-2xs: calc(12px * var(--font-scale));
     --shell-nav-width: 248px;
     --shell-topbar-height: 60px;
   }

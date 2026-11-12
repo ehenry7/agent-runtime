@@ -32,6 +32,7 @@ import { ApprovalPage } from './pages/approval/ApprovalPage';
 import { ApprovalEditPage } from './pages/approval/ApprovalEditPage';
 import { AgentTemplatesPage } from './pages/templates/AgentTemplatesPage';
 import { A2AManagementPage } from './pages/templates/A2AManagementPage';
+import { SettingsPage } from './pages/SettingsPage';
 import { getProductName } from './utils/env';
 import {
   ApiError,
@@ -189,6 +190,9 @@ function RouteView() {
   }
   if (path === '/agent-templates') {
     return <AgentTemplatesPage />;
+  }
+  if (path === '/settings') {
+    return <SettingsPage />;
   }
   const instanceAccess = matchRoute('/instances/:id/access', path);
   if (instanceAccess) {
